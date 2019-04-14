@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Triangle Tracker</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Triangle Tracker</h1>
+        <h2><i>"The best angle in which to approach any problem is the <b>TRYangle</b>".</i></h2>
+      </div>
+      <form id="tSides">
+        <P>This app allows you to input the lengths of the sides of a triangle, and your submit will return whether these sides form an equilateral, isosceles, or scalene triangle or if the sides cannot make a triangle at all. TRY it!<p>
+          <br>
+        <div class="form-group">
+          <label for="side1">Side 1:</label>
+          <input id="side1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="side2">Side 2:</label>
+          <input id="side2" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="side3">Side 3:</label>
+          <input id="side3" class="form-control" type="text">
+        </div>
+        <br>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <h3>Your triangle is <i><span class="tType"></span>!</i></h3>
+      <br>
+    </div>
+  </body>
+</html>
